@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Arif</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="particles-canvas"></canvas>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">AR</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Profil</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#projects">Projek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">Muhammad Arif Ramadhan</h1>
+          <p class="hero-subtitle">Mahasiswa Sistem Informasi</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn">Hubungi Saya</a>
+            <a
+              href="https://drive.google.com/file/d/1OcWKmwkSe7w_jYe9YzOaDNToXVrbi1uC/view?usp=sharing"
+              target="_blank"
+              class="btn btn-outline"
+              >Curriculum Vitae</a
+            >
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="profile.jpg" alt="Profil Arif" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Profil Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">Profil Akademik</h2>
+
+        <div class="about-grid">
+          <!-- Card Pendidikan -->
+          <div class="about-card">
+            <div class="card-header">
+              <i class="fas fa-university icon"></i>
+              <h3>Data Pendidikan</h3>
+            </div>
+            <div class="card-body">
+              <p><strong>Universitas:</strong> Bina Sarana Informatika</p>
+              <p><strong>Jurusan:</strong> Sistem Informasi</p>
+              <p><strong>IPK:</strong> 3.90</p>
+              <p><strong>Tahun:</strong> 2022 - Sekarang</p>
+            </div>
+          </div>
+
+          <!-- Card Pencapaian -->
+          <div class="about-card">
+            <div class="card-header">
+              <i class="fas fa-trophy icon"></i>
+              <h3>Pencapaian</h3>
+            </div>
+            <div class="card-body">
+              <ul class="achievement-list">
+                <li>Sertifikasi Cloud Computing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Kemampuan Teknis</h2>
+
+        <div class="skills-grid">
+          <!-- Skill Items -->
+          <div class="skill-card">
+            <i class="fab fa-html5 skill-icon"></i>
+            <h4>HTML5</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 100%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <i class="fab fa-css3-alt skill-icon"></i>
+            <h4>CSS3</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 100%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <i class="fab fa-js skill-icon"></i>
+            <h4>JavaScript</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 100%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <i class="fas fa-database skill-icon"></i>
+            <h4>MySQL</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 100%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <i class="fab fa-php skill-icon"></i>
+            <h4>CodeIgniter 3</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 100%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <i class="fas fa-cloud skill-icon"></i>
+            <h4>Cloud Computing</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 100%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <i class="fas fa-network-wired skill-icon"></i>
+            <h4>Networking Basics</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 100%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <i class="fas fa-code skill-icon"></i>
+            <h4>Dart</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 100%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <i class="fas fa-code skill-icon"></i>
+            <h4>Flutter</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 100%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projek Terbaru</h2>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <a
+            href="https://github.com/Riff-Code/Apps_Absensi_with_Flutter"
+            target="_blank"
+            class="project-card">
+            <div class="project-image">
+              <img src="2.png" alt="E-Learning Platform" />
+              <div class="project-overlay">
+                <i class="fas fa-external-link-alt"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Aplikasi Apps Absensi</h3>
+              <p>
+                Aplikasi absensi dengan Flutter yang menyediakan pencatatan
+                kehadiran real-time, dilengkapi dengan notifikasi otomatis dan
+                laporan terintegrasi untuk memudahkan manajemen kehadiran di
+                lingkungan pendidikan maupun perusahaan.
+              </p>
+              <div class="project-tech">
+                <span>Dart</span>
+                <span>Flutter</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 2 -->
+          <a
+            href="https://riffuka-store-v1.vercel.app/"
+            target="_blank"
+            class="project-card">
+            <div class="project-image">
+              <img src="3.png" alt="Affiliate Store" />
+              <div class="project-overlay">
+                <i class="fas fa-external-link-alt"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Affiliate Store</h3>
+              <p>
+                Platform e-commerce yang mengintegrasikan produk dari berbagai
+                merchant melalui sistem afiliasi, memungkinkan pengunjung
+                menemukan produk berkualitas dan informasi lengkap, sementara
+                pemilik situs memperoleh komisi dari setiap transaksi yang
+                terjadi melalui tautan afiliasi.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Content Security Policy (CSP)</span>
+                <span>Atribut Data</span>
+                <span>Praktik Keamanan</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 3 -->
+          <a
+            href="https://for-you-final.vercel.app/"
+            target="_blank"
+            class="project-card">
+            <div class="project-image">
+              <img src="4.png" alt="Lirik" />
+              <div class="project-overlay">
+                <i class="fas fa-external-link-alt"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Lirik Lagu</h3>
+              <p>
+                Website interaktif yang dirancang untuk memberikan pengalaman
+                multimedia dengan menampilkan latar partikel dinamis, memutar
+                musik latar secara otomatis, serta menampilkan lirik lagu secara
+                real-time.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>GSAP (GreenSock Animation Platform)</span>
+                <span>Particles</span>
+                <span>Google Fonts</span>
+                <span>Security and Access Restrictions</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 4 -->
+          <a
+            href="https://github.com/Riff-Code/New_JM"
+            target="_blank"
+            class="project-card">
+            <div class="project-image">
+              <img src="4.png" alt="Travel" />
+              <div class="project-overlay">
+                <i class="fas fa-external-link-alt"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Travel Mobil</h3>
+              <p>
+                Platform jasa travel mobil di Sumatera Barat yang menawarkan
+                berbagai informasi mengenai rute perjalanan, armada kendaraan,
+                serta layanan pemesanan perjalanan secara online. Dengan desain
+                yang responsif dan tampilan modern, situs ini memudahkan
+                pengunjung untuk melihat detail layanan, memesan perjalanan
+                melalui form booking, serta mengakses informasi kontak dan
+                profil perusahaan.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Icon dan Font</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 5 -->
+          <a
+            href="https://github.com/Riff-Code/WP_II_MuhammadArifRamadhan"
+            target="_blank"
+            class="project-card">
+            <div class="project-image">
+              <img src="5.png" alt="Pustaka booking" />
+              <div class="project-overlay">
+                <i class="fas fa-external-link-alt"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Pustaka Booking</h3>
+              <p>
+                Platform online yang dirancang untuk memudahkan pengguna dalam
+                melakukan pemesanan dan reservasi fasilitas perpustakaan. Situs
+                ini menyediakan antarmuka yang user-friendly dan responsif,
+                memungkinkan pengunjung untuk mencari ketersediaan buku, ruang
+                baca, atau fasilitas lainnya secara real-time.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>PHP</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Codeigniter 3</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+      <div class="container">
+        <h2 class="section-title">Sertifikasi</h2>
+
+        <div class="certificates-grid">
+          <!-- Sertifikat 1 -->
+          <div class="certificate-card">
+            <div class="certificate-header">
+              <i class="fas fa-cloud certificate-icon"></i>
+              <div class="certificate-badge">Valid</div>
+            </div>
+            <div class="certificate-body">
+              <h3>Cloud Computing Fundamentals</h3>
+              <p class="certificate-issuer">Alibaba Cloud</p>
+              <p class="certificate-date">Diperoleh: Desember 2024</p>
+            </div>
+            <a
+              href="https://drive.google.com/drive/folders/1Bx6JXu5CHteMdo0O19fY4kFOBBg0l9Gl?usp=sharing"
+              target="_blank"
+              class="btn btn-certificate">
+              <i class="fas fa-eye"></i> Lihat Sertifikat
+            </a>
+          </div>
+
+          <!-- Sertifikat 2 -->
+          <!-- <div class="certificate-card">
+            <div class="certificate-header">
+              <i class="fas fa-network-wired certificate-icon"></i>
+              <div class="certificate-badge">Valid</div>
+            </div>
+            <div class="certificate-body">
+              <h3>Jaringan Komputer Professional</h3>
+              <p class="certificate-issuer">Cisco Networking Academy</p>
+              <p class="certificate-date">Diperoleh: November 2022</p>
+            </div>
+            <a href="#" target="_blank" class="btn btn-certificate">
+              <i class="fas fa-eye"></i> Lihat Sertifikat
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Hubungi Saya</h2>
+
+        <div class="contact-grid">
+          <!-- Info Kontak -->
+          <div class="contact-info">
+            <div class="info-card">
+              <h3><i class="fas fa-envelope"></i> Email</h3>
+              <p>mrif1934@gmail.com</p>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/muhammad-arif-ramadhan-23a759242/"
+                target="_blank"
+                class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/Riff-Code"
+                target="_blank"
+                class="social-icon">
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/muh_arif_ramadhan_"
+                target="_blank"
+                class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="https://wa.me/6289516294021"
+                target="_blank"
+                class="social-icon">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+          <div class="contact-info">
+            <div class="info-card">
+              <h3><i class="fas fa-map-marker-alt"></i> Lokasi</h3>
+              <p>Jakarta, Indonesia</p>
+              <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.923516373935!2d106.82719581529432!3d-6.914741395019406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68305c5dc9d8b3%3A0x3ab723dca28a3c2a!2sJakarta%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1629990000000!5m2!1sen!2sus"
+                  width="100%"
+                  height="250"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p class="copyright">
+            &copy; 2025 Muhammad Arif Ramadhan. All rights reserved
+          </p>
+          <a href="#home" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
